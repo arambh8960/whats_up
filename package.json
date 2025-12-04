@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/app.js",
+    "prod": "pm2 start src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arambh",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "http-status": "^2.1.0",
+    "mongoose": "^9.0.0",
+    "socket.io": "^4.8.1",
+    "pm2": "^5.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
